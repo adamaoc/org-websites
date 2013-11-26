@@ -1,4 +1,4 @@
-Liberty Websites
+ORG Websites
 ================
 
-Website stack for Liberty-Websites.com
+Website stack for ORG-Websites.com
