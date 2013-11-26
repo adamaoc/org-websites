@@ -1,0 +1,31 @@
+.be-block {
+	padding-bottom: 1em;
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+	}
+	.be-item {
+		overflow: hidden;
+		@extend .col-xs-12;
+		@extend .col-sm-4;
+		.glyphicon {
+			float: left;
+			font-size: 3em;
+			color: $secondary-color;
+		}
+		h3 {
+			font-size: 3em;
+			float: left;
+			margin: 0;
+			color: $secondary-color;
+			padding-left: 0.2em;
+		}
+		p {
+			clear: both;
+			padding: 1em 0;
+			max-width: 40em;
+		}
+	}
+}

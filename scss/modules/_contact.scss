@@ -1,0 +1,34 @@
+.contact-wrap {
+	background: $secondary-color;
+	padding: 6em 0.5em 1em;
+	/*box-shadow: inset 4px 6px 98px darken(#004E80, 20%);*/
+	@media (min-width: 481px) {
+		padding: 6em 2em 5em;
+	}
+
+	.glyphicon-phone {
+		padding-right: 0.3em;
+		font-size: 90%;
+	}
+	h1 {
+		color: $light-tan;
+		text-shadow: -1px 1px 0px #333;
+		font-size: 1.7em;
+		@media (min-width: 481px) {
+			font-size: 3em;
+		}
+	}
+
+	.contact-txt {
+		color: #f1f1f1;
+		padding: 0.2em;
+		max-width: 50em;
+		text-align: justify;
+		@media (min-width: 481px) {
+			padding-left: 3em;
+		}
+	}
+	a {
+		color: #fff;
+	}
+}

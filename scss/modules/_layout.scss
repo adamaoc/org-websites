@@ -1,0 +1,61 @@
+
+h1, .navbar-brand {
+	font-family: $header-font-family;
+}
+
+a {
+	color: $primary-color;
+}
+
+.header-center {
+	text-align: center;
+}
+
+.navbar-brand {
+	/*text-transform: uppercase;*/
+	span {
+		color: $primary-color;
+		font-size: 110%;
+		padding-right: 0.3em;
+		/*-webkit-transform: rotate(-35deg);
+		transform: rotate(-35deg);*/
+		text-shadow: 1px 1px 1px #fff;
+	}
+	&:hover span {
+		color: $darkgray;
+	}
+}
+.navbar-default .navbar-brand {
+	color: $primary-color;
+}
+
+.navbar {
+	background: rgba(255,255,255,0.7);
+	a {
+		text-transform: uppercase;
+	}
+	.navbar-header {
+		width: 100%;
+	}
+	.nav {
+		margin: 0;
+		li {
+			float: left;
+		}
+	}
+	.navbar-right {
+		float: right;
+	}
+}
+
+.img-wrap {
+	width: 100%;
+	img {
+		max-width: 100%;
+	}
+}
+
+#footer {
+	text-align: center;
+	font-size: 0.7em;
+}
